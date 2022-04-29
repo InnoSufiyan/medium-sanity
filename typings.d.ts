@@ -7,7 +7,7 @@ export interface Post {
         image: string;
     };
     description: string;
-    mainImages: {
+    mainImage: {
         asset: {
             url: string;
         };
